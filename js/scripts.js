@@ -20,15 +20,19 @@ $("button#nighttime").click(function() {
   $("body").addClass("black-background");
 });
 $("button#1").click(function() {
-  $("ul").prepend("<li>This is right?</li>")
+  $("ul#user").prepend("<li>This is right?</li>")
+  $("ul#webpage").prepend("<li>Yes?</li>")
 });
 $("button#2").click(function() {
-  $("ul").prepend("<li>FINALLY</li>")
+  $("ul#user").prepend("<li>Hey, girrrl</li>")
+  $("ul#webpage").prepend("<li>I have no gender. Does not compute.</li>")
 });
 $("button#3").click(function() {
-  $("ul").prepend("<li>Fine!</li>")
+  $("ul#user").prepend("<li>Get out!</li>")
+  $("ul#webpage").prepend("<li>Ok.</li>")
 });
 $("button#4").click(function() {
-  $("ul").prepend("<li>Yes, ma'am :3</li>")
+  $("ul#user").prepend("<li>No, come back!</li>")
+  $("ul#webpage").prepend("<li>I never really left.</li>")
 });
 });
