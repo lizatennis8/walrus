@@ -22,3 +22,8 @@ a:hover {
 .red-background {
   background-color: red;
 }
+
+.black-background {
+background-color: black;
+color: white;
+}

@@ -15,4 +15,8 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("red-background");
   });
+$("button#nighttime").click(function() {
+  $("body").removeClass();
+  $("body").addClass("black-background");
+});
 });
